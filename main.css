@@ -1,0 +1,111 @@
+* {
+    font-family: 'Zen kurenaido', sans-serif;
+    color: inherit;
+}
+
+html, body{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+    transition: 1s;
+}
+
+a:hover{
+    transition: 0.5s;
+    font-size: 150%;   
+
+}
+.container{
+    display: flex;
+}
+
+.top-menu{
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    height: 25%;
+    background-color:  #29a19c;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    color: #393e46;
+}
+
+.left-menu{
+    position: fixed;
+    font-size: 150%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    width: 18% ;
+    background-color: #a3f7bf;
+    top: 25%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    
+}
+
+.texto{
+    position: fixed;
+    font-size: 175%;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #393e46;
+    height: 75%;
+    width: 82%;   
+    top: 25%;
+    left: 18%;
+    color: #ffba49;
+    padding: 2rem;
+    
+}
+
+#logo-github{
+    position: fixed;
+    top: 40%;
+    left: 25%;
+}
+
+.texto .redes-sociais{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    font-size: 150%;
+    box-sizing: border-box;
+    display: flex;
+    padding: 3rem;
+    justify-content: space-around;
+}
+
+#instagram-logo{
+    position: fixed;
+    
+}
+#instagram-logo:hover{
+    transition: none;
+}
+
+#steam-logo{
+    position: fixed;
+    
+}
+#steam-logo:hover{
+    transition: none;
+}
+
+#twitter-logo{
+    position: fixed;
+    
+}
+#twitter-logo:hover{
+    transition: none;
+}

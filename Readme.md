@@ -1,0 +1,1 @@
+Esse mini projeto é um site com algumas informações sobre mim, feito em 2021
